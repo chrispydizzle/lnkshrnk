@@ -26,7 +26,7 @@ curl http://localhost:5000/shrink -d '{ "url": "https://dogeplanet.com" }' -H 'C
 ```
 
 ### Unshrink something
-Visiting the url will redirect you to the original url. But if you just want the original url 
+Visiting the shrunken url will redirect you to the original url. But if you just want the original url 
 ```bash
 curl http://localhost:5000/unshrink -d '{ "url": "http://localhost:5000/go/5fd5085c" }' -H 'Content-Type: application/json'
 ```
