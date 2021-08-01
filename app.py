@@ -1,9 +1,7 @@
 import flask
-import hashlib
 import hash_store
 
 app = flask.Flask(__name__)
-
 store = hash_store.UrlStore()
 
 
